@@ -1,0 +1,9 @@
+--- Starting End-to-End API Verification ---
+1. Creating Assessment...
+[ApiService] START createAssessment
+Unhandled exception:
+ApiException(statusCode: null, message: Connection timed out. Please check your internet connection., endpoint: null)
+#0      ApiService.createAssessment (file:///C:/Users/User/Desktop/SkinSenseAfricaMobile/lib/services/api_service.dart:88:7)
+<asynchronous suspension>
+#1      main (file:///C:/Users/User/Desktop/SkinSenseAfricaMobile/test_e2e.dart:11:19)
+<asynchronous suspension>

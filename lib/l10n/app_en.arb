@@ -1,0 +1,14 @@
+{
+  "@@locale": "en",
+  "appName": "SkinSense Africa",
+  "onboardingWelcomeTitle": "Welcome to SkinSense",
+  "onboardingWelcomeDesc": "Your AI-powered tool for early skin condition detection and guidance across Africa.",
+  "onboardingPrepTitle": "How to Take a Good Photo",
+  "onboardingPrepDesc": "Find a well-lit area. Ensure the affected skin is clear, in focus, and centered in the frame.",
+  "onboardingSafetyTitle": "Your Privacy Matters",
+  "onboardingSafetyDesc": "Images are temporarily analyzed and never stored permanently without your consent.",
+  "startButton": "Start Assessment",
+  "nextButton": "Next",
+  "skipButton": "Skip",
+  "retryButton": "Retry"
+}

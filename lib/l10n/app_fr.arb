@@ -1,0 +1,14 @@
+{
+  "@@locale": "fr",
+  "appName": "SkinSense Africa",
+  "onboardingWelcomeTitle": "Bienvenue sur SkinSense",
+  "onboardingWelcomeDesc": "Votre outil intelligent pour la détection précoce des problèmes de peau en Afrique.",
+  "onboardingPrepTitle": "Comment prendre une bonne photo",
+  "onboardingPrepDesc": "Trouvez un endroit bien éclairé. Assurez-vous que la peau affectée est nette et centrée.",
+  "onboardingSafetyTitle": "Votre vie privée compte",
+  "onboardingSafetyDesc": "Les images sont analysées temporairement et ne sont jamais stockées sans votre consentement.",
+  "startButton": "Commencer l'évaluation",
+  "nextButton": "Suivant",
+  "skipButton": "Passer",
+  "retryButton": "Réessayer"
+}

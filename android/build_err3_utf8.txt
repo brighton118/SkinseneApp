@@ -1,0 +1,60 @@
+﻿> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+.\gradlew : 
+At line:1 char:75
++ ... ; cd android; 
+.\gradlew assembleRelease 
+> build_err3.txt 2>&1; 
+Get-Co ...
++                   ~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (:  
+  String) [], RemoteExc   
+ eption
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+FAILURE: Build failed 
+with an exception.
+
+* Where:
+Build file 'C:\Users\User\
+Desktop\SkinSenseAfricaMob
+ile\android\build.gradle.k
+ts' line: 19
+
+* What went wrong:
+A problem occurred 
+configuring project 
+':app'.
+> [CXX1101] NDK at C:\User
+s\User\AppData\Local\Andro
+id\sdk\ndk\28.2.13676358 
+did not have a 
+source.properties file
+
+* Try:
+> Run with --stacktrace 
+option to get the stack 
+trace.
+> Run with --info or 
+--debug option to get 
+more log output.
+> Run with --scan to get 
+full insights from a 
+Build Scan (powered by 
+Develocity).
+> Get more help at 
+https://help.gradle.org.
+
+BUILD FAILED in 8s
+4 actionable tasks: 4 up-to-date

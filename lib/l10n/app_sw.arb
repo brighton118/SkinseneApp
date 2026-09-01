@@ -1,0 +1,14 @@
+{
+  "@@locale": "sw",
+  "appName": "SkinSense Africa",
+  "onboardingWelcomeTitle": "Karibu SkinSense",
+  "onboardingWelcomeDesc": "Zana yako inayotumia AI kwa ugunduzi wa mapema wa magonjwa ya ngozi kote Afrika.",
+  "onboardingPrepTitle": "Jinsi ya Kupiga Picha Nzuri",
+  "onboardingPrepDesc": "Tafuta eneo lenye mwanga. Hakikisha ngozi iliyoathirika inaonekana wazi na ipo katikati ya picha.",
+  "onboardingSafetyTitle": "Faragha Yako Ni Muhimu",
+  "onboardingSafetyDesc": "Picha huchunguzwa kwa muda na hazihifadhiwi kabisa bila idhini yako.",
+  "startButton": "Anza Upimaji",
+  "nextButton": "Endelea",
+  "skipButton": "Ruka",
+  "retryButton": "Jaribu Tena"
+}

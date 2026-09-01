@@ -1,0 +1,59 @@
+Analyzing SkinSenseAfricaMobile...
+
+warning - lib\routes.dart:1:8 - Unused import: 'package:flutter/material.dart'. Try removing the import directive. - unused_import
+warning - lib\ui\screens\analysis_loading_screen.dart:6:8 - Unused import: '../../services/api_exception.dart'. Try removing the import directive. - unused_import
+warning - test_e2e.dart:2:8 - Unused import: 'package:http/http.dart'. Try removing the import directive. - unused_import
+warning - test_e2e.dart:26:11 - The value of the local variable 'imageResult' isn't used. Try removing the variable or using it. - unused_local_variable
+warning - test_e2e.dart:57:13 - The value of the local variable 'rec' isn't used. Try removing the variable or using it. - unused_local_variable
+   info - lib\services\api_service.dart:74:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\api_service.dart:80:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\api_service.dart:101:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\api_service.dart:113:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\api_service.dart:134:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\api_service.dart:142:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\api_service.dart:163:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\services\api_service.dart:169:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - lib\ui\screens\analysis_loading_screen.dart:139:72 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\ui\screens\analysis_loading_screen.dart:141:74 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\ui\screens\questionnaire_screen.dart:180:11 - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\ui\screens\recommendations_screen.dart:25:35 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib\ui\screens\recommendations_screen.dart:26:62 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib\ui\screens\recommendations_screen.dart:27:38 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib\ui\screens\recommendations_screen.dart:28:10 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib\ui\widgets\error_state_widget.dart:8:9 - Parameter 'key' could be a super parameter. Trying converting 'key' to a super parameter. - use_super_parameters
+   info - test_api.dart:6:3 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:15:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:17:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:19:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:21:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:22:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:24:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:45:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:47:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:50:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:51:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:53:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:56:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:59:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api.dart:60:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_api_flow.dart:4:3 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:7:3 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:10:3 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:12:3 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:13:3 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:16:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:25:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:27:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:28:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:30:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:52:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:53:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:55:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:58:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:59:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:60:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:62:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:65:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - test_e2e.dart:67:5 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+
+55 issues found.
