@@ -3,6 +3,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:http/http.dart' as http;
+import 'package:http_parser/http_parser.dart';
+import 'package:mime/mime.dart';
 
 import '../models/assessment_status_response.dart';
 import '../models/image_assessment_result.dart';
@@ -103,8 +105,14 @@ class ApiService {
       final uri = Uri.parse('$baseUrl/v1/assessments/$assessmentId/image-assessment');
       var request = http.MultipartRequest('POST', uri);
       
+      final mimeType = lookupMimeType(imagePath) ?? 'image/jpeg';
+      
       request.files.add(
-        await http.MultipartFile.fromPath('image', imagePath),
+        await http.MultipartFile.fromPath(
+          'image', 
+          imagePath,
+          contentType: MediaType.parse(mimeType),
+        ),
       );
 
       final streamedResponse = await _client.send(request).timeout(timeoutDuration);
@@ -117,7 +125,6 @@ class ApiService {
 
       final data = jsonDecode(responseBody);
       return ImageAssessmentResult.fromJson(data);
-      
     } on TimeoutException {
       throw ApiException('Image upload timed out. Please try again.');
     } on SocketException {
@@ -141,6 +148,14 @@ class ApiService {
 
       sw.stop();
       print('[ApiService] DONE saveQuestionnaire | ${response.statusCode} | ${sw.elapsedMilliseconds}ms');
+
+      // 409 Conflict means the questionnaire was ALREADY saved (retry scenario).
+      // Treat it as success: parse the response body and proceed normally.
+      if (response.statusCode == 409) {
+        print('[ApiService] 409 Conflict on questionnaire — already saved, proceeding.');
+        final data = jsonDecode(response.body);
+        return QuestionnaireResponse.fromJson(data);
+      }
 
       _handleErrorResponse(response);
 
